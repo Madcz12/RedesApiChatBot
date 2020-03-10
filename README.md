@@ -1,2 +1,2 @@
 # RedesApiChatBot
-APIREST backend chat 
+Proyecto de Redes API ChatBot Django-React 
