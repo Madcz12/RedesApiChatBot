@@ -5,14 +5,11 @@ import sqlite3
 conn = sqlite3.connect('db.sqlite3')
 
 c = conn.cursor()
-#c.execute(""" SELECT * FROM bot_question """)
-#print(c.fetchone())
-#conn.commit()
-#conn.close()
+
 
 class bot:
-    #def translation():
-        return 4
+    def translation(self):
+        return self.translation
 
 def respond(str):
     print(str)
