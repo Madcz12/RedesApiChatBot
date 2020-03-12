@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'ChatterBot',
+    'Storebot',
     'rest-framework',
     'rest_framework',
     'rest-framework.authtoken',
