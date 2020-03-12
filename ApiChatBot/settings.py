@@ -37,17 +37,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'Storebot',
-    'rest-framework',
+    
     'rest_framework',
-    'rest-framework.authtoken',
+    #'django_markdown',
     'django.contrib.sites',
     'rest_auth',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
     'rest_auth.registration',
-    'Storebot.apps.StorebotConfig',
+    'StoreBot.apps.StoreBotConfig',
 ]
 
 #SITIO CREADO POR DEFECTO

@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class ChatterbotConfig(AppConfig):
-    name = 'ChatterBot'
+class StoreBotConfig(AppConfig):
+    name = 'StoreBot'
