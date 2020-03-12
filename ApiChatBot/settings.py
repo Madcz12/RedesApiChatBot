@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'rest_auth.registration',
+    'Storebot.apps.StorebotConfig',
 ]
 
 #SITIO CREADO POR DEFECTO
