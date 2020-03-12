@@ -12,14 +12,13 @@ class Respuesta(models.Model):
     def __str__(self):
         return self.textoRespuesta
 
-class Pelicula(models.Model):
-    nombrePeli = models.CharField(max_length=200)
-    descripcionPeli = models.CharField(max_length=200)
+class Producto(models.Model):
+    nombreProducto = models.CharField(max_length=200)
+    descripcion= models.CharField(max_length=200)
     precio = models.IntegerField()
-    genero = models.CharField(max_length=200)
 
     def __str__(self):
-        return "pelicula: {} precio: $ {}".format(self.nombrePeli, self.precio)
+        return "Producto: {} precio: $ {}".format(self.nombreProducto, self.precio)
 
 class Miembro(models.Model):
     nombre = models.CharField(max_length=200)
