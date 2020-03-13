@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    
+
     'rest_framework',
     #'django_markdown',
     'django.contrib.sites',
@@ -46,11 +46,11 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'rest_auth.registration',
-    'StoreBot.apps.StoreBotConfig',
+    'Botflix.apps.BotflixConfig',
 ]
 
 #SITIO CREADO POR DEFECTO
-SITE_ID = 1 
+SITE_ID = 1
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
